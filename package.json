@@ -1,0 +1,35 @@
+{
+  "name": "@trop/engine",
+  "version": "0.1.0",
+  "description": "Tools for schedule tasks",
+  "main": "lib/index.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --timeout 30000 test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-leptons/trop_engine.git"
+  },
+  "keywords": [
+    "schedule",
+    "task",
+    "optimize"
+  ],
+  "author": "Kevin Leptons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevin-leptons/trop_engine/issues"
+  },
+  "homepage": "https://github.com/kevin-leptons/trop_engine#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "@trop/gear": "^0.1.1"
+  }
+}

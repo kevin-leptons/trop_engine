@@ -1,0 +1,9 @@
+/dist
+/dest
+/doc
+/test
+/tmp
+/node_modules
+package-lock.json
+*.swp
+*.swo
