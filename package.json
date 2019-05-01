@@ -1,6 +1,6 @@
 {
   "name": "@trop/engine",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tools for schedule tasks",
   "main": "lib/index.js",
   "directories": {
