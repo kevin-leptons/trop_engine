@@ -63,7 +63,7 @@ class LongLiveTask extends ITask {
         for (let i = 0; i < 4; ++i) {
             if (this._close_defer) {
                 this._close_defer.resolve()
-                throw error.Useless('Task is terminated')
+                throw error.Closed('Task is terminated')
             }
 
             this._emit('update', `${i*25}%`)

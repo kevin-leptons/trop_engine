@@ -61,6 +61,7 @@ A way to perform tasks, with limited number of tasks at a time
     * `TypeError` - Task is not an instance of ITask
     * `TypeError` - Slots is not an integer, greater than zero
     * `Conflict` - Other caller is waiting on executor
+    * `Closed` - Executor is closed
 
 ### finish()
 

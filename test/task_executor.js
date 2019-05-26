@@ -255,7 +255,7 @@ describe('TaskExecutor.close()', () => {
                     await x.push(task)
                 }
             } catch (e) {
-                if (e instanceof error.Useless) {
+                if (e instanceof error.Closed) {
                     return e.message === 'Executor is closed' ? 1 : -1
                 }
             }
@@ -298,7 +298,7 @@ describe('TaskExecutor.reset()', () => {
                     await x.push(task)
                 }
             } catch (e) {
-                if (e instanceof error.Useless) {
+                if (e instanceof error.Closed) {
                     return e.message === 'Executor is closed' ? 1 : -1
                 }
             }
